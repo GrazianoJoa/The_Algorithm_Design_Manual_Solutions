@@ -1,0 +1,10 @@
+#ifndef CODES_H
+#define CODES_H
+
+typedef enum STATUS_CODE {
+  STATUS_OK,
+  ERROR_WHILE_ALLOCATING_MEMORY,
+  ERROR_BAD_ARGUMENTS,
+} STATUS_CODE;
+
+#endif
